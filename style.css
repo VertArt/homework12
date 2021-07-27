@@ -47,6 +47,7 @@ body {
 
 .header {
     display: flex;
+    position: relative;
 }
 
 .link {
@@ -73,18 +74,16 @@ body {
     margin: 29px 51px 28px 0px;
 }
 
-.head {
-    position: relative;
-}
-
-/* .link.logo:hover::after {
+.link.logo:hover::after {
     content: "";
     height: 45px;
     width: 150px;
-    left: 10px;
+    left: -10px;
+    bottom: 25px;
     position: absolute;
     border: 1px solid rgba(0,0,0,0.1);
-} */
+    border-radius: 20px;
+}
 
 .list-item > .link {
     margin-right: 42px;
