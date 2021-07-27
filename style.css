@@ -109,6 +109,12 @@ body {
     margin-right: 10px;
 }
 
+.link.login:hover {
+    -webkit-box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+    -moz-box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+    box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+}
+
 .link.try-it {
     height: 45px;
     width: 120px;
@@ -122,6 +128,9 @@ body {
 
 .link.try-it:hover {
     color: #80594e;
+    -webkit-box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+    -moz-box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+    box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
 }
 
 .header > .container {
@@ -469,6 +478,12 @@ body {
     margin-bottom: 32px;
 }
 
+.birdie-link:hover {
+    -webkit-box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+    -moz-box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+    box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+}
+
 .birdie-link {
     display: flex;
     width: 193px;
@@ -521,6 +536,12 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 161px;
+}
+
+.or-fon-link:hover {
+    -webkit-box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+    -moz-box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+    box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
 }
 
 footer {
