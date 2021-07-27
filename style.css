@@ -54,6 +54,10 @@ body {
     color: black;
 }
 
+.link:hover {
+    color: #80594e;
+}
+
 .main {
     display: flex;
     justify-content: start;
@@ -103,6 +107,9 @@ body {
     background-color: #FF6336;
 }
 
+.link.try-it:hover {
+    color: #80594e;
+}
 
 .header > .container {
     display: flex;
