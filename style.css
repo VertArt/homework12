@@ -73,8 +73,21 @@ body {
     margin: 29px 51px 28px 0px;
 }
 
+.head {
+    position: relative;
+}
+
+/* .link.logo:hover::after {
+    content: "";
+    height: 45px;
+    width: 150px;
+    left: 10px;
+    position: absolute;
+    border: 1px solid rgba(0,0,0,0.1);
+} */
+
 .list-item > .link {
-    padding-right: 42px;
+    margin-right: 42px;
     font-size: 15px;
     line-height: 20px;
 }
@@ -150,10 +163,10 @@ body {
     margin-right: 10px;
 }
 
-.header-buttoms > .link.link {
+.header-buttoms > .link.login {
     width: 160px;
     height: 60px;
-    padding-top: 9px;
+    padding-top: 7px;
 }
 
 .buttom-description {
@@ -168,28 +181,26 @@ body {
 }
 
 .logo-company > .container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  text-align: center;
 }
 
 .logo-company-description {
+    display: inline-block;
     width: 720px;
     height: 120px;
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
     text-align: center;
-    margin-bottom: 70px;
 }
 
 .logos {
+    margin-top: 70px;
     width: 1290px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .big-card {
@@ -270,6 +281,7 @@ body {
     align-items: center;
 }
 
+
 .lok-kard-img {
     margin-bottom: 23px;
 }
@@ -288,7 +300,7 @@ body {
     margin-bottom: 57px;
 }
 
-.lok-card-item.third {
+.lok-card-item:nth-child(3) {
     margin-right: 0px;
 }
 
@@ -306,15 +318,17 @@ body {
 }
 
 .boost-card-space {
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
+    vertical-align: top;
     width: 100%;
+    text-align:start;
 }
 
 .boost-card {
-    height: 609px;
+    display: inline-block;
     align-items: center;
     margin-bottom: 170px;
+    margin-right: 30px;
 
 }
 
@@ -331,9 +345,9 @@ body {
 }
 
 .boost-card-description {
-    width: 409px;
+    width: 390px;
     margin-bottom: 25px;
-    margin-right: 30px;
+    /* margin-right: 30px; */
 }
 
 .boost-card-link {
@@ -344,11 +358,13 @@ body {
 }
 
 .blue-man-box {
-    display: flex;
+    /* display: inline-block; */
 }
 
 .blue-man-text {
     width: 895px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .b-m-t-description {
@@ -363,10 +379,15 @@ body {
     line-height: 25px;
 }
 
+.logo-revolut {
+    margin-bottom: 165px;
+}
+
 .man-picture {
     margin-left: auto;
     padding-top: 50px;
     margin-bottom: 105px;
+    display: inline-block;
 }
 
 .cake-box {
