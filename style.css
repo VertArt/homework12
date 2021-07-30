@@ -27,7 +27,7 @@
 }
 
 p.line {
-    border: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
 }
 
 .container {
@@ -47,6 +47,7 @@ body {
 
 .header {
     display: flex;
+    position: relative;
 }
 
 .link {
@@ -73,18 +74,16 @@ body {
     margin: 29px 51px 28px 0px;
 }
 
-.head {
-    position: relative;
-}
-
-/* .link.logo:hover::after {
+.link.logo:hover::after {
     content: "";
     height: 45px;
     width: 150px;
-    left: 10px;
+    left: -10px;
+    bottom: 25px;
     position: absolute;
     border: 1px solid rgba(0,0,0,0.1);
-} */
+    border-radius: 20px;
+}
 
 .list-item > .link {
     margin-right: 42px;
@@ -109,6 +108,15 @@ body {
     margin-right: 10px;
 }
 
+.link.login:hover {
+    -webkit-box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+    -moz-box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+    box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+    border: 1px solid #FF6336;
+    background-color: #FF6336;
+    color: white;
+}
+
 .link.try-it {
     height: 45px;
     width: 120px;
@@ -121,7 +129,12 @@ body {
 }
 
 .link.try-it:hover {
-    color: #80594e;
+    color: black;
+    -webkit-box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+    -moz-box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+    box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+    background-color: white;
+    border: 1px solid black
 }
 
 .header > .container {
@@ -181,13 +194,13 @@ body {
 }
 
 .logo-company > .container {
-  text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .logo-company-description {
-    display: inline-block;
     width: 720px;
-    height: 120px;
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
@@ -318,14 +331,12 @@ body {
 }
 
 .boost-card-space {
-    display: inline-block;
-    vertical-align: top;
     width: 100%;
     text-align:start;
+    display: flex;
 }
 
 .boost-card {
-    display: inline-block;
     align-items: center;
     margin-bottom: 170px;
     margin-right: 30px;
@@ -347,7 +358,6 @@ body {
 .boost-card-description {
     width: 390px;
     margin-bottom: 25px;
-    /* margin-right: 30px; */
 }
 
 .boost-card-link {
@@ -357,13 +367,15 @@ body {
     background-color: #C9E8F2;
 }
 
-.blue-man-box {
-    /* display: inline-block; */
+.container.blue-man-box {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .blue-man-text {
-    width: 895px;
-    display: inline-block;
+    width: 800px;
     vertical-align: top;
 }
 
@@ -384,10 +396,10 @@ body {
 }
 
 .man-picture {
-    margin-left: auto;
-    padding-top: 50px;
+    width: 310px;
+    height: 310px;
+    margin-top: 50px;
     margin-bottom: 105px;
-    display: inline-block;
 }
 
 .cake-box {
@@ -469,6 +481,12 @@ body {
     margin-bottom: 32px;
 }
 
+.birdie-link:hover {
+    -webkit-box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+    -moz-box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+    box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+}
+
 .birdie-link {
     display: flex;
     width: 193px;
@@ -521,6 +539,12 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 161px;
+}
+
+.or-fon-link:hover {
+    -webkit-box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+    -moz-box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
+    box-shadow: 10px 10px 10px 3px rgba(136, 165, 187, 0.25);
 }
 
 footer {
