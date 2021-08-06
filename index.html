@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Flexbox: Макетище</title>
@@ -35,7 +36,7 @@
     </header>
     <p class="line"></p>
     <main>
-        <div class="header"><!--контейнер в начале страницы с кнопками и картинкой-->
+        <div class="header">
             <div class="container">
                 <div class="header-text">
                     <h1 class="header-titlle">
@@ -55,22 +56,22 @@
                 <img src="imgs/head-img-1.png" alt="Main image" class="header-img">
             </div>
         </div>
-        <div class="logo-company"><!--контейнер с логотипами компаний-->
+        <div class="logo-company">
             <div class="container">
                 <h2 class="logo-company-description">
                     The preferred localization tool of 1500+ companies
                 </h2>
                 <div class="logos">
-                    <a href="#" class="link"><img src="imgs/logo1.png" alt="Spesh logo"></a>
-                    <a href="#" class="link"><img src="imgs/logo2.png" alt="Virgin logo"></a>
-                    <a href="#" class="link"><img src="imgs/logo3.png" alt="Tidal logo"></a>
-                    <a href="#" class="link"><img src="imgs/logo4.png" alt="Revolut logo"></a>
-                    <a href="#" class="link"><img src="imgs/logo5.png" alt="Yelp logo"></a>
-                    <a href="#" class="link"><img src="imgs/logo6.png" alt="Daimler logo"></a>
+                    <a href="#" class="link"><img src="imgs/logo1.png" alt="Spesh logo" class="logos__imgs"></a>
+                    <a href="#" class="link"><img src="imgs/logo2.png" alt="Virgin logo" class="logos__imgs"></a>
+                    <a href="#" class="link"><img src="imgs/logo3.png" alt="Tidal logo" class="logos__imgs"></a>
+                    <a href="#" class="link"><img src="imgs/logo4.png" alt="Revolut logo" class="logos__imgs"></a>
+                    <a href="#" class="link"><img src="imgs/logo5.png" alt="Yelp logo" class="logos__imgs"></a>
+                    <a href="#" class="link"><img src="imgs/logo6.png" alt="Daimler logo" class="logos__imgs"></a>
                 </div>
             </div>
         </div>
-        <div class="container bigs-cards"><!--контейнер с большими карточками -->
+        <div class="container bigs-cards">
             <div class="big-card">
                 <div class="bgc-description">
                     <h3 class="bgc-title">
@@ -121,7 +122,7 @@
             </div>
 
         </div>
-        <div class="Lokal"><!--jкнтейнер с карточками на бежевом фоне-->
+        <div class="Lokal">
             <div class="container">
                 <h3 class="lokal-description">
                     What can you localize with Lokalise?
@@ -173,7 +174,7 @@
                                 Integrate with Salesforce Marketing Cloud (coming soon) or translate static e-mails.
                             </p>
                         </div>
-                        <div class="lok-card-item third">
+                        <div class="lok-card-item">
                             <img src="imgs/lok-card-6.png" alt="IoT" class="lok-kard-img">
                             <h4 class="lok-kard-name">
                                 IoT
@@ -186,7 +187,7 @@
                 </div>
             </div>
         </div>
-        <div class="container boost"> <!--контейнер с тремя карточками про локализацию-->
+        <div class="container boost">
             <h3 class="boost-title">
                 Boost your localization team’s productivity tenfold
             </h3>
@@ -223,7 +224,7 @@
                 </div>
             </div>
         </div>
-        <div class="blue-man"><!--блок с синим фоном и фото целовека-->
+        <div class="blue-man">
             <div class="container blue-man-box">
                 <div class="blue-man-text">
                     <p class="b-m-t-description">
@@ -237,7 +238,7 @@
                 <img src="imgs/man-face.png" alt="man picture" class="man-picture">
             </div>
         </div>
-        <div class="cake-box"><!--блок с изображением торта и парой фирм-->
+        <div class="cake-box">
             <div class="container cake-box-big">
                 <div class="cake-box-big-border">
                     <div class="cake-witn-desc">
@@ -254,7 +255,7 @@
                 </div>
             </div>
         </div>
-        <div class="birdie"><!--блок с картинкой на которой птичка-->
+        <div class="birdie">
             <div class="container birdie-box">
                 <h4 class="birdie-title">
                     Integrate Lokalise with your work tools
@@ -266,7 +267,7 @@
                 <a href="#" class="link birdie-link">See all integrations</a>
             </div>
         </div>
-        <div class="orange-fon"><!--блок с оранжевым фоном и текстом-->
+        <div class="orange-fon">
             <div class="container orange-fon-box">
                 <h4 class="orange-title">
                     Localization made easy. Why wait?
@@ -279,7 +280,7 @@
         </div>
     </main> 
     <footer>
-        <div class="container two-box-footer"><!--блок со списками-->
+        <div class="container two-box-footer">
             <div class="case-box">
                 <h4 class="case-box-title">
                     Case Studies
@@ -292,7 +293,7 @@
                 <a href="#" class="link case-box-link">Read more</a>
             </div>
             <div class="lists-box">
-                <div class="small-list"><!--Product-->
+                <div class="small-list">
                     <h6 class="title-list">
                         Product
                     </h6>
@@ -307,7 +308,7 @@
                         <li class="small-list-items"><a href="#" class="link">Automations</a></li>
                     </ul>
                 </div>
-                <div class="small-list"><!--Support-->
+                <div class="small-list">
                     <h6 class="title-list">
                         Support
                     </h6>
@@ -322,7 +323,7 @@
                         <li class="small-list-items"><a href="#" class="link">Supported File Formats</a></li>
                     </ul>
                 </div>
-                <div class="small-list"><!--Company-->
+                <div class="small-list">
                     <h6 class="title-list">
                         Company
                     </h6>
@@ -334,7 +335,7 @@
                         <li class="small-list-items"><a href="#" class="link">Media Kit</a></li>
                     </ul>
                 </div>
-                <div class="small-list"><!--Legal-->
+                <div class="small-list">
                     <h6 class="title-list">
                         Legal
                     </h6>
@@ -350,10 +351,10 @@
                 </div>
             </div>
         </div>
-        <div class="container"><!--линия-->
+        <div class="container">
             <p class="wertical-line-buttom"></p>
         </div>
-        <div class="container"><!--окнтейнер с подписью-->
+        <div class="container">
             <div class="signature">
                 <div class="left-blok">
                     <a href="#" class="link"><img src="imgs/signature-img.png" alt="signature-img" class="signature-img"></a>

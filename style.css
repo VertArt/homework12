@@ -31,7 +31,7 @@ p.line {
 }
 
 .container {
-    width: 1290px;
+    max-width: 1290px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -654,4 +654,526 @@ footer {
     font-size: 12px;
     line-height: 15px;
     margin-right: 78px;
+}
+
+@media (max-width: 1289px) {
+
+    .header.container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .link.logo {
+        display: flex;
+        margin: 50px 0px 0px 0px ;
+        margin-bottom: 20px;
+    }
+
+    .link.logo:hover::after{
+        border: none;
+    }
+
+    .main {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .list-item {
+        margin-right: 40px;
+    }
+
+    .list-item > .link {
+        margin-right: 0px;
+        text-align: center;
+    }
+    .list-item:last-child {
+        margin-right: 0px;
+    }
+
+    .login-box {
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .line {
+        /* margin-bottom: 10px; */
+    }
+
+    .header > .container {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .header-img {
+        height: 263px;
+        width: 380px;
+        margin-bottom: 30px;
+    }
+
+    .header-text {
+        width: 80%;
+    }
+
+    .header-titlle {
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+
+    .header-desription {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+
+    .buttom-description {
+        font-size: 10px;
+        line-height: 15px;
+        margin-bottom: 35px;
+    }
+
+    .header-buttoms {
+        margin-bottom: 15px;
+    }
+
+    .logo-company {
+        padding-top: 50px;
+    }
+
+    .logo-company > .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .logo-company-description {
+        width: 60%;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .logos {
+        margin-top: 50px;
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-bottom: 50px;
+        flex-wrap: wrap;
+    }
+
+    .logos > .link {
+        width: 33%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .big-card {
+        flex-direction: column;
+        padding-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .big-card.diferent {
+        flex-direction: column;
+    }
+    .bgc-title {
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .bgc-description {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+
+    .bgc-link {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .big-card:last-child {
+        margin-bottom: 50px;
+    }
+
+    .lokal-description {
+        font-size: 35px;
+        line-height: 40px;
+        padding-top: 75px;
+    }
+
+    .lok-card-item:last-child {
+        margin-bottom: 70px;
+    }
+
+    .boost-card-space {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .boost-title {
+        padding-top: 50px;
+        text-align: center;
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+
+    .boost-card-title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .boost-card-description {
+        width: 75%;
+        margin-bottom: 25px;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .boost-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+        margin-right: 0px;
+    }
+
+    .container.blue-man-box {
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+
+    .blue-man-text {
+        width: 75%;
+    }
+
+    .b-m-t-description {  
+        font-size: 18px;
+        line-height: 25px;
+        padding-top: 10px;
+    }
+
+    .logo-revolut {
+        margin-bottom: 65px;
+    }
+
+    .cake-box-big  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cake-box-big-border {
+        display: flex;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .cake-box-big-border {
+        height: auto;
+    }
+
+    .cake-witn-desc {
+        flex-direction: column;
+    }
+
+    .cake-discription {
+        font-weight: 600; 
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .cake-box-img {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .wertical-line {
+        display: flex;
+        margin-left: auto;
+        width: 100%;
+        height: 0px;
+        border-bottom: 1px solid black;
+        border-left:none;        
+        padding-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    .cake-box-big {
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+
+    .birdie-img {
+        width: 90%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    .birdie-box {
+        padding-top: 50px;
+    }
+
+    .birdie-title {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .birdie-link {
+        margin-bottom: 45px;
+    }
+
+    .orange-title {
+        padding-top: 40px;
+        width: 100%;
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .or-fon-link {
+        margin-bottom: 45px;
+    }
+
+    .two-box-footer {
+        padding-top: 30px;
+        flex-direction: column;
+    }
+
+    .lists-box {
+        flex-wrap: wrap;
+    }
+
+    .small-list {
+        margin-bottom: 30px;
+    }
+
+    .signature {
+        flex-direction: column;
+    }
+
+    .left-blok {
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .right-blok {
+        padding-top: 20px;
+    }
+
+
+@media (max-width: 767px) {
+    
+    .header.container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .link.logo {
+        display: flex;
+        margin: 20px 0px 0px 0px;
+        margin-bottom: 20px;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .list-item {
+        margin-right: 0px;
+    }
+
+    .header-img {
+        height: 160px;
+        width: 220px;
+        margin-bottom: 20px;
+    }
+
+    .header-titlle {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    .header-desription {
+        font-size: 9px;
+        line-height: 12px;
+        margin-bottom: 20px;
+    }
+
+    .header-buttoms {
+        margin-bottom: 15px;
+    }
+
+    .header-buttoms > .link.try-it {
+        width: 100px;
+        height: 40px;
+        padding-top: 0px;
+        margin-right: 10px;
+        font-size: 10px;
+    }
+
+    .header-buttoms > .link.login {
+        width: 100px;
+        height: 40px;
+        padding-top: 0px;
+        padding-top: 0px;
+        margin-right: 10px;
+        font-size: 10px;
+    }
+
+    .buttom-description {
+        font-size: 7px;
+        line-height: 10px;
+        margin-bottom: 25px;
+    }
+
+    .logo-company {
+        padding-top: 20px;
+    }
+
+    .logo-company-description {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .logos {
+        margin-top: 30px;
+    }
+
+    .logos > .link {
+        width: 50%;
+    }
+
+    .logos__imgs {
+        width: 80px;
+    }
+
+    .big-card:first-child {
+        padding-top: 50px;
+    }
+
+    .big-card {
+        padding-top: 50px;
+    }
+
+    .bgc-imgs {
+        width: 300px;
+        height: 300px;
+    }
+    .bgc-description {
+        width: 80%;
+    }
+
+    .bgc-title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    .bgc-description {
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .bgc-link {
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .big-card:first-child {
+        padding-top: 25px;
+    }
+
+    .lokal-description {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .lokal-card-name {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .lok-kard-discription {
+        
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .lok-card-item {
+        width: 75%;
+    }
+
+    .boost-title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .boost-card-description {
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .boost-card-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .man-picture {
+        margin-bottom: 30px;
+    }
+
+    .cake-witn-desc {
+        width: 100%;
+    }
+
+    .cake-discription {
+        text-align: center;
+    }
+
+    .name-firm-one {
+        margin-right: 20px;
+    }
+
+    .two-pictures {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .birdie-description {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 25px;
+    }
+
+    .birdie-title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .orange-title {
+        font-size: 25px;
+        line-height: 35px;
+    }
 }
