@@ -705,6 +705,10 @@ footer {
         /* margin-bottom: 10px; */
     }
 
+    .header {
+        justify-content: center;
+    }
+
     .header > .container {
         flex-direction: column-reverse;
         align-items: center;
@@ -1175,5 +1179,9 @@ footer {
     .orange-title {
         font-size: 25px;
         line-height: 35px;
+    }
+
+    .case-box {
+        width: 100%;
     }
 }
